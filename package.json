@@ -1,9 +1,12 @@
 {
-  "name": "nodejs_docker_volume",
+  "name": "pubsub_server_simple",
   "version": "1.0.0",
-  "description": "Node.js on Docker with synced volume",
+  "description": "pubsub server simple",
   "author": "Eugene Lugin <call.eugene@gmail.com>",
   "main": "server.js",
+  "engines": {
+    "node": "8.9.1"
+  },
   "scripts": {
     "start": "node server.js"
   },
